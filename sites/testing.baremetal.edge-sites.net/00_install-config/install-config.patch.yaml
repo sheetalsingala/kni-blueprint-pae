@@ -3,7 +3,7 @@ kind: InstallConfig
 baseDomain: baremetal.edge-sites.net
 compute:
  - name: worker
-   replicas: 1
+   replicas: 2
 controlPlane:
    name: master
    platform: {}
